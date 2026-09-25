@@ -130,7 +130,7 @@ def exportar():
             "-i", str(VIDEO),
             "-filter_complex", ";".join(filtros),
             "-map", "[vout]", "-map", "[aout]",
-            "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-pix_fmt", "yuv420p",
+            "-c:v", "libx264", "-preset", "slow", "-crf", "23", "-pix_fmt", "yuv420p",
             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
             str(SALIDA),
         ],
