@@ -1,0 +1,6 @@
+# Los videos y audios se guardan en Releases, no en git
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.wav
